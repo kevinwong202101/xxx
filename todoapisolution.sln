@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D4114AFF-727F-4B8C-BE94-A1417E68D691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todoapi", "src\todoapi\todoapi.csproj", "{D6D7C211-E349-4739-AED6-EB5E30674339}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D66A7D00-534E-4F37-AA91-A0AC5A8C95E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todoapi.tests", "test\todoapi.tests\todoapi.tests.csproj", "{820F4215-6B31-470B-828A-92D587F9FEF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6D7C211-E349-4739-AED6-EB5E30674339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6D7C211-E349-4739-AED6-EB5E30674339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6D7C211-E349-4739-AED6-EB5E30674339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6D7C211-E349-4739-AED6-EB5E30674339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{820F4215-6B31-470B-828A-92D587F9FEF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{820F4215-6B31-470B-828A-92D587F9FEF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{820F4215-6B31-470B-828A-92D587F9FEF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{820F4215-6B31-470B-828A-92D587F9FEF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6D7C211-E349-4739-AED6-EB5E30674339} = {D4114AFF-727F-4B8C-BE94-A1417E68D691}
+		{820F4215-6B31-470B-828A-92D587F9FEF3} = {D66A7D00-534E-4F37-AA91-A0AC5A8C95E0}
+	EndGlobalSection
+EndGlobal
