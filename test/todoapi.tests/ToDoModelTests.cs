@@ -12,6 +12,6 @@ public class ToDoModelTests
 
         todoItem.Name="azure pipeline";
 
-        Assert.Equal("azure pipeline", todoItemgi.Name);
+        Assert.Equal("azure pipeline", todoItem.Name);
     }
 }
